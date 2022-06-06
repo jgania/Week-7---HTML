@@ -19,5 +19,82 @@ tr:hover {
     border-width: 5px;
     border-color: black;
     margin: 20px;
-    background-color: aquamarine;
+    background-color: lightblue;
+}
+
+.body1 {
+    text-align: center;
+    background: lightcyan;
+}
+
+.body2 {
+    text-align: center;
+    background-image: url(MatrixImage.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+#container-model {
+    width: 90%;
+    margin: 50px auto;
+}
+
+#contact {
+    padding: 40px;
+    background: lightblue;
+}
+
+#header-1 {
+    margin-bottom: 10px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 30%;
+}
+
+input {
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+ul {
+    background-color: lightblue;
+    list-style-type: square;
+}
+
+ul li {
+    display: inline;
+    padding: 5px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+tr:hover {
+    background-color: lightgray;
 }
